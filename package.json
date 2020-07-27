@@ -1,0 +1,26 @@
+{
+    "name": "node_starter_kit",
+    "description": "Taite's NodeJS starter kit",
+    "version": "0.0.1",
+    "main": "index.js",
+    "author": "Taite Nazifi <taitenazifi@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@tensorflow-models/knn-classifier": "latest",
+        "@tensorflow-models/mobilenet": "latest",
+        "@tensorflow/tfjs": "^2.0.1",
+        "@tensorflow/tfjs-node": "^2.0.1",
+        "body-parser": "latest",
+        "dotenv": "latest",
+        "express": "latest",
+        "fs": "latest",
+        "knex": "^0.21.1",
+        "mssql": "^6.2.0",
+        "nodemon": "latest",
+        "sharp": "latest"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "dev": "nodemon index.js"
+    }
+}
